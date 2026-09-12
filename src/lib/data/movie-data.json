@@ -1,0 +1,42 @@
+[
+  {
+    "id": "m1",
+    "title": "Hanuman Ansh",
+    "genre": "Drama",
+    "duration": "2h 30m",
+    "rating": 9.7,
+    "showtimes": ["09:45", "10:30", "22:10"]
+  },
+  {
+    "id": "m2",
+    "title": "Bethlehem Kudumba Unit",
+    "genre": "Drama",
+    "duration": "2h 37m",
+    "rating": 9.5,
+    "showtimes": ["16:45", "19:30", "22:10"]
+  },
+  {
+    "id": "m3",
+    "title": "Iron Circuit",
+    "genre": "Action",
+    "duration": "2h 25m",
+    "rating": 8.9,
+    "showtimes": ["04:45", "19:30", "21:10"]
+  },
+  {
+    "id": "m4",
+    "title": "Dust and Empire",
+    "genre": "Thriller",
+    "duration": "3h 17m",
+    "rating": 9.2,
+    "showtimes": ["09:45", "14:30", "20:10"]
+  },
+  {
+    "id": "m5",
+    "title": "The Quiet Orbit",
+    "genre": "Sci-Fi",
+    "duration": "2h 14m",
+    "rating": 8.4,
+    "showtimes": ["03:45", "09:30", "19:10"]
+  }
+]
