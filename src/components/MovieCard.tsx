@@ -1,4 +1,5 @@
 import { Movie } from "@/types/movie";
+import Image from "next/image";
 
 interface MovieCardProps {
   movie: Movie;
@@ -8,7 +9,16 @@ export default function MovieCard({ movie }: MovieCardProps) {
   return (
     <div className="cursor-pointer">
       <div className="relative h-56 rounded-card bg-gray-100 flex items-center justify-center mb-2 overflow-hidden">
-        <span className="text-xs text-gray-400">{movie.genre}</span>
+          {movie.posterUrl ? (
+          <Image
+            src={movie.posterUrl}
+            alt={movie.title}
+            fill
+            className="object-cover"
+          />
+        ) : (
+          <span className="text-xs text-gray-400">{movie.genre}</span>
+        )}
         <span className="absolute top-2 right-2 flex items-center gap-1 bg-black/60 text-white text-xs px-2 py-0.5 rounded-full">
           ★ {movie.rating}
         </span>

@@ -10,7 +10,7 @@ export default async function Home() {
   const movies = await getMovies();
   console.log("movies", movies);
   return (
-    <main>
+    <main className="p-6">
       <div>
         <h1>Now Showing</h1>
         <div>
